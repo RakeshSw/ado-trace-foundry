@@ -17,6 +17,7 @@ class AdoClient:
     def __init__(self, org: str, project: str, pat: str | None = None):
         if not org or not project or any(c in org for c in '/?@#'):
             raise ValueError('Use an Azure DevOps organization slug and project name')
+        self.org = org
         self.base = f"https://dev.azure.com/{urllib.parse.quote(org)}/{urllib.parse.quote(project, safe='')}"
         self.pat = pat or os.environ.get('ADO_PAT')
         if not self.pat:

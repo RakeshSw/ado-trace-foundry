@@ -9,6 +9,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 from .core import build, export, write_json
 from .documents import extract_text
+from .asset_intel import process_assets
 
 
 def load_items(path: Path) -> list[dict]:
@@ -90,8 +91,19 @@ def main(argv=None):
             data = build(items)
             args.output.mkdir(parents=True, exist_ok=True)
             write_json(args.output / 'source-workitems.json', items)
-            extra = download_assets(client, data['attachments'], args.output / 'attachments', ocr=args.ocr) if args.download_attachments else {}
+            if args.download_attachments:
+                extra, asset_manifest = process_assets(client, items, data['attachments'], args.output, ocr=args.ocr)
+            else:
+                extra, asset_manifest = {}, []
             export(data, args.output, attachment_text=extra)
+            if args.download_attachments:
+                write_json(args.output / 'asset-manifest.json', asset_manifest)
+                report = json.loads((args.output / 'manifest.json').read_text(encoding='utf-8'))
+                report.update({'asset_references': len(asset_manifest),
+                               'inline_image_references': sum(a['kind'] == 'inline-image' for a in asset_manifest),
+                               'unique_downloaded_assets': len({a.get('sha256') for a in asset_manifest if a.get('sha256')}),
+                               'failed_asset_references': sum(a['extraction_status'].startswith(('failed:', 'rejected:')) for a in asset_manifest)})
+                write_json(args.output / 'manifest.json', report)
         print(f"Exported {len(data['nodes'])} work items, {len(data['edges'])} links, {len(data['traces'])} trace paths → {args.output}")
         return 0
     except (ValueError, RuntimeError, OSError, json.JSONDecodeError) as ex:

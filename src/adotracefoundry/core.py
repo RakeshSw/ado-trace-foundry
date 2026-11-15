@@ -163,7 +163,7 @@ def export(data: dict, output: Path, *, attachment_text: dict | None = None) -> 
             fp.write(json.dumps({"id": doc_id, "source_id": node["id"], "revision": node["revision"],
                                  "type": node["type"], "content": body, "related_ids": sorted(set(related[node["id"]]))},
                                 ensure_ascii=False) + "\n")
-    write_json(output / "manifest.json", {"schema_version": "0.1", "workitems": len(nodes),
+    write_json(output / "manifest.json", {"schema_version": "0.2", "workitems": len(nodes),
              "relations": len(data["edges"]), "attachments": len(data["attachments"]),
              "traces": len(data["traces"]), "unresolved_link_ids": len(data["unresolved_link_ids"]),
              "knowledge_documents": len(nodes), "note": "Source-linked export, not a vector index"})

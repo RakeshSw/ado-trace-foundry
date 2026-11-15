@@ -9,3 +9,15 @@ __pycache__/
 .pytest_cache/
 *.log
 *.bak
+
+# Local patch and backup files
+.patch-backups/
+adotrace-v*-patch/
+*Asset-Intelligence-Patch.zip
+
+# Generated extraction outputs
+output/
+
+# Local credentials
+.env
+.env.*

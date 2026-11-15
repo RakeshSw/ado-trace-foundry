@@ -1,0 +1,4 @@
+SELECT [System.Id]
+FROM WorkItems
+WHERE [System.TeamProject] = @project
+ORDER BY [System.ChangedDate] DESC
