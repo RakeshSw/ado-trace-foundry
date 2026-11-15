@@ -68,8 +68,24 @@ def main(argv=None):
     live.add_argument('--max-items', type=int, default=1000)
     live.add_argument('--download-attachments', action='store_true')
     live.add_argument('--ocr', action='store_true')
+    ai = sub.add_parser('analyze-coverage', help='Read-only Azure OpenAI coverage assessment')
+    ai.add_argument('--input', type=Path, required=True)
+    ai.add_argument('--requirement-id', type=int, required=True)
+    ai.add_argument('--provider', default='azure-openai', choices=['azure-openai'])
+    ai.add_argument('--output', type=Path, required=True)
     args = p.parse_args(argv)
     try:
+        if args.command == 'analyze-coverage':
+            from .ai_coverage import run_coverage
+            assessment = run_coverage(args.input, args.requirement_id, args.output, args.provider)
+            counts = {}
+            for row in assessment['criteria']:
+                counts[row['status']] = counts.get(row['status'], 0) + 1
+            print(json.dumps({'requirement_id': args.requirement_id,
+                              'model': assessment['model'], 'criteria_by_status': counts,
+                              'validation_warnings': len(assessment['validation_warnings']),
+                              'output': str(args.output)}, indent=2))
+            return 0
         if args.command == 'demo':
             items = load_items(args.input)
             data = build(items)
