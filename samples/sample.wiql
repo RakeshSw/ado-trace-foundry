@@ -1,0 +1,3 @@
+SELECT [System.Id] FROM WorkItems
+WHERE [System.TeamProject] = @project AND [System.WorkItemType] IN ('User Story', 'Product Backlog Item', 'Test Case')
+ORDER BY [System.ChangedDate] DESC

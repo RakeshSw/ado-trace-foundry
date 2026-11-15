@@ -1,0 +1,26 @@
+[
+  {
+    "ids": [
+      101,
+      201,
+      301
+    ],
+    "titles": [
+      "Customer can submit an order",
+      "Validate checkout flow",
+      "Verify successful checkout"
+    ]
+  },
+  {
+    "ids": [
+      101,
+      202,
+      302
+    ],
+    "titles": [
+      "Customer can submit an order",
+      "Show order confirmation",
+      "Verify order summary"
+    ]
+  }
+]

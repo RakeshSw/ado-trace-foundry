@@ -1,0 +1,3 @@
+Synthetic checkout notes
+When the payment succeeds, show the order confirmation page.
+No customer data or real work items are included in this example.
