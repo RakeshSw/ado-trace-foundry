@@ -71,6 +71,13 @@ def extract_relations(items: list[dict]) -> tuple[list[dict], list[dict]]:
                 source, target, kind = other, item_id, "parent-child"
             elif name.endswith("Hierarchy-Forward"):
                 source, target, kind = item_id, other, "parent-child"
+            elif name == "Microsoft.VSTS.Common.TestedBy-Forward":
+                source, target, kind = item_id, other, "tested-by"
+            elif name == "Microsoft.VSTS.Common.TestedBy-Reverse":
+                source, target, kind = other, item_id, "tested-by"
+            elif name == "System.LinkTypes.Related":
+                source, target = sorted((item_id, other))
+                kind = "related"
             else:
                 source, target, kind = item_id, other, name or "related"
             key = (kind, source, target)

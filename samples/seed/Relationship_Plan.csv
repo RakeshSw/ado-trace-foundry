@@ -1,0 +1,625 @@
+﻿Source Local Key,Target Local Key,Relationship,Purpose,Create via CSV?,Expected after import
+EP-0001,FT-0001,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+FT-0001,US-0001,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0001,TK-0001,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0001,TK-0002,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0001,TC-0001,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0001,TC-0002,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0001,BG-0001,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0001,US-0002,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0002,TK-0003,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0002,TC-0003,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0002,TC-0004,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0001,US-0003,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0003,TK-0004,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0003,TK-0005,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0003,TC-0005,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0003,TC-0006,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0003,BG-0002,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0001,US-0004,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0004,TK-0006,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0004,TC-0007,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0004,TC-0008,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0001,US-0005,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0005,TK-0007,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0005,TK-0008,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0005,TC-0009,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0005,TC-0010,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0005,BG-0003,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+EP-0001,FT-0002,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+FT-0002,US-0006,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0006,TK-0009,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0006,TC-0011,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0006,TC-0012,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0002,US-0007,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0007,TK-0010,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0007,TK-0011,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0007,TC-0013,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0007,TC-0014,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0007,BG-0004,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0002,US-0008,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0008,TK-0012,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0008,TC-0015,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0008,TC-0016,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0002,US-0009,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0009,TK-0013,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0009,TK-0014,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0009,TC-0017,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0009,TC-0018,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0009,BG-0005,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0002,US-0010,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0010,TK-0015,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0010,TC-0019,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0010,TC-0020,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+EP-0001,FT-0003,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+FT-0003,US-0011,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0011,TK-0016,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0011,TK-0017,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0011,TC-0021,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0011,TC-0022,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0011,BG-0006,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0003,US-0012,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0012,TK-0018,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0012,TC-0023,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0012,TC-0024,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0003,US-0013,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0013,TK-0019,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0013,TK-0020,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0013,TC-0025,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0013,TC-0026,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0013,BG-0007,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0003,US-0014,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0014,TK-0021,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0014,TC-0027,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0014,TC-0028,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0003,US-0015,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0015,TK-0022,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0015,TK-0023,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0015,TC-0029,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0015,TC-0030,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0015,BG-0008,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+EP-0001,FT-0004,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+FT-0004,US-0016,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0016,TK-0024,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0016,TC-0031,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0016,TC-0032,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0004,US-0017,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0017,TK-0025,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0017,TK-0026,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0017,TC-0033,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0017,TC-0034,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0017,BG-0009,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0004,US-0018,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0018,TK-0027,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0018,TC-0035,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0018,TC-0036,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0004,US-0019,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0019,TK-0028,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0019,TK-0029,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0019,TC-0037,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0019,TC-0038,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0019,BG-0010,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0004,US-0020,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0020,TK-0030,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0020,TC-0039,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0020,TC-0040,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+EP-0002,FT-0005,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+FT-0005,US-0021,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0021,TK-0031,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0021,TK-0032,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0021,TC-0041,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0021,TC-0042,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0021,BG-0011,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0005,US-0022,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0022,TK-0033,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0022,TC-0043,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0022,TC-0044,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0005,US-0023,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0023,TK-0034,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0023,TK-0035,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0023,TC-0045,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0023,TC-0046,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0023,BG-0012,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0005,US-0024,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0024,TK-0036,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0024,TC-0047,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0024,TC-0048,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0005,US-0025,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0025,TK-0037,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0025,TK-0038,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0025,TC-0049,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0025,TC-0050,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0025,BG-0013,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+EP-0002,FT-0006,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+FT-0006,US-0026,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0026,TK-0039,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0026,TC-0051,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0026,TC-0052,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0006,US-0027,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0027,TK-0040,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0027,TK-0041,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0027,TC-0053,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0027,TC-0054,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0027,BG-0014,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0006,US-0028,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0028,TK-0042,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0028,TC-0055,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0028,TC-0056,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0006,US-0029,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0029,TK-0043,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0029,TK-0044,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0029,TC-0057,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0029,TC-0058,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0029,BG-0015,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0006,US-0030,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0030,TK-0045,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0030,TC-0059,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0030,TC-0060,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+EP-0002,FT-0007,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+FT-0007,US-0031,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0031,TK-0046,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0031,TK-0047,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0031,TC-0061,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0031,TC-0062,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0031,BG-0016,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0007,US-0032,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0032,TK-0048,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0032,TC-0063,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0032,TC-0064,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0007,US-0033,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0033,TK-0049,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0033,TK-0050,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0033,TC-0065,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0033,TC-0066,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0033,BG-0017,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0007,US-0034,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0034,TK-0051,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0034,TC-0067,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0034,TC-0068,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0007,US-0035,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0035,TK-0052,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0035,TK-0053,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0035,TC-0069,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0035,TC-0070,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0035,BG-0018,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+EP-0002,FT-0008,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+FT-0008,US-0036,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0036,TK-0054,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0036,TC-0071,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0036,TC-0072,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0008,US-0037,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0037,TK-0055,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0037,TK-0056,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0037,TC-0073,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0037,TC-0074,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0037,BG-0019,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0008,US-0038,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0038,TK-0057,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0038,TC-0075,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0038,TC-0076,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0008,US-0039,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0039,TK-0058,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0039,TK-0059,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0039,TC-0077,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0039,TC-0078,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0039,BG-0020,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0008,US-0040,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0040,TK-0060,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0040,TC-0079,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0040,TC-0080,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+EP-0003,FT-0009,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+FT-0009,US-0041,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0041,TK-0061,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0041,TK-0062,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0041,TC-0081,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0041,TC-0082,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0041,BG-0021,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0009,US-0042,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0042,TK-0063,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0042,TC-0083,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0042,TC-0084,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0009,US-0043,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0043,TK-0064,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0043,TK-0065,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0043,TC-0085,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0043,TC-0086,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0043,BG-0022,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0009,US-0044,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0044,TK-0066,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0044,TC-0087,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0044,TC-0088,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0009,US-0045,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0045,TK-0067,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0045,TK-0068,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0045,TC-0089,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0045,TC-0090,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0045,BG-0023,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+EP-0003,FT-0010,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+FT-0010,US-0046,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0046,TK-0069,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0046,TC-0091,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0046,TC-0092,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0010,US-0047,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0047,TK-0070,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0047,TK-0071,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0047,TC-0093,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0047,TC-0094,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0047,BG-0024,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0010,US-0048,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0048,TK-0072,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0048,TC-0095,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0048,TC-0096,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0010,US-0049,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0049,TK-0073,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0049,TK-0074,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0049,TC-0097,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0049,TC-0098,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0049,BG-0025,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0010,US-0050,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0050,TK-0075,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0050,TC-0099,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0050,TC-0100,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+EP-0003,FT-0011,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+FT-0011,US-0051,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0051,TK-0076,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0051,TK-0077,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0051,TC-0101,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0051,TC-0102,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0051,BG-0026,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0011,US-0052,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0052,TK-0078,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0052,TC-0103,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0052,TC-0104,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0011,US-0053,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0053,TK-0079,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0053,TK-0080,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0053,TC-0105,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0053,TC-0106,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0053,BG-0027,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0011,US-0054,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0054,TK-0081,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0054,TC-0107,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0054,TC-0108,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0011,US-0055,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0055,TK-0082,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0055,TK-0083,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0055,TC-0109,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0055,TC-0110,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0055,BG-0028,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+EP-0003,FT-0012,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+FT-0012,US-0056,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0056,TK-0084,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0056,TC-0111,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0056,TC-0112,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0012,US-0057,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0057,TK-0085,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0057,TK-0086,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0057,TC-0113,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0057,TC-0114,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0057,BG-0029,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0012,US-0058,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0058,TK-0087,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0058,TC-0115,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0058,TC-0116,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0012,US-0059,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0059,TK-0088,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0059,TK-0089,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0059,TC-0117,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0059,TC-0118,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0059,BG-0030,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0012,US-0060,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0060,TK-0090,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0060,TC-0119,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0060,TC-0120,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+EP-0004,FT-0013,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+FT-0013,US-0061,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0061,TK-0091,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0061,TK-0092,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0061,TC-0121,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0061,TC-0122,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0061,BG-0031,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0013,US-0062,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0062,TK-0093,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0062,TC-0123,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0062,TC-0124,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0013,US-0063,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0063,TK-0094,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0063,TK-0095,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0063,TC-0125,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0063,TC-0126,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0063,BG-0032,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0013,US-0064,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0064,TK-0096,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0064,TC-0127,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0064,TC-0128,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0013,US-0065,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0065,TK-0097,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0065,TK-0098,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0065,TC-0129,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0065,TC-0130,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0065,BG-0033,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+EP-0004,FT-0014,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+FT-0014,US-0066,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0066,TK-0099,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0066,TC-0131,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0066,TC-0132,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0014,US-0067,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0067,TK-0100,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0067,TK-0101,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0067,TC-0133,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0067,TC-0134,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0067,BG-0034,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0014,US-0068,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0068,TK-0102,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0068,TC-0135,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0068,TC-0136,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0014,US-0069,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0069,TK-0103,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0069,TK-0104,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0069,TC-0137,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0069,TC-0138,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0069,BG-0035,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0014,US-0070,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0070,TK-0105,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0070,TC-0139,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0070,TC-0140,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+EP-0004,FT-0015,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+FT-0015,US-0071,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0071,TK-0106,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0071,TK-0107,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0071,TC-0141,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0071,TC-0142,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0071,BG-0036,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0015,US-0072,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0072,TK-0108,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0072,TC-0143,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0072,TC-0144,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0015,US-0073,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0073,TK-0109,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0073,TK-0110,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0073,TC-0145,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0073,TC-0146,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0073,BG-0037,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0015,US-0074,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0074,TK-0111,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0074,TC-0147,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0074,TC-0148,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0015,US-0075,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0075,TK-0112,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0075,TK-0113,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0075,TC-0149,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0075,TC-0150,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0075,BG-0038,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+EP-0004,FT-0016,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+FT-0016,US-0076,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0076,TK-0114,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0076,TC-0151,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0076,TC-0152,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0016,US-0077,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0077,TK-0115,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0077,TK-0116,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0077,TC-0153,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0077,TC-0154,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0077,BG-0039,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0016,US-0078,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0078,TK-0117,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0078,TC-0155,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0078,TC-0156,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0016,US-0079,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0079,TK-0118,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0079,TK-0119,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0079,TC-0157,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0079,TC-0158,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0079,BG-0040,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0016,US-0080,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0080,TK-0120,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0080,TC-0159,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0080,TC-0160,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+EP-0005,FT-0017,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+FT-0017,US-0081,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0081,TK-0121,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0081,TK-0122,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0081,TC-0161,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0081,TC-0162,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0081,BG-0041,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0017,US-0082,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0082,TK-0123,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0082,TC-0163,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0082,TC-0164,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0017,US-0083,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0083,TK-0124,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0083,TK-0125,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0083,TC-0165,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0083,TC-0166,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0083,BG-0042,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0017,US-0084,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0084,TK-0126,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0084,TC-0167,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0084,TC-0168,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0017,US-0085,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0085,TK-0127,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0085,TK-0128,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0085,TC-0169,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0085,TC-0170,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0085,BG-0043,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+EP-0005,FT-0018,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+FT-0018,US-0086,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0086,TK-0129,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0086,TC-0171,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0086,TC-0172,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0018,US-0087,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0087,TK-0130,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0087,TK-0131,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0087,TC-0173,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0087,TC-0174,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0087,BG-0044,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0018,US-0088,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0088,TK-0132,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0088,TC-0175,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0088,TC-0176,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0018,US-0089,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0089,TK-0133,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0089,TK-0134,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0089,TC-0177,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0089,TC-0178,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0089,BG-0045,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0018,US-0090,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0090,TK-0135,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0090,TC-0179,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0090,TC-0180,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+EP-0005,FT-0019,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+FT-0019,US-0091,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0091,TK-0136,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0091,TK-0137,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0091,TC-0181,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0091,TC-0182,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0091,BG-0046,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0019,US-0092,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0092,TK-0138,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0092,TC-0183,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0092,TC-0184,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0019,US-0093,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0093,TK-0139,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0093,TK-0140,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0093,TC-0185,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0093,TC-0186,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0093,BG-0047,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0019,US-0094,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0094,TK-0141,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0094,TC-0187,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0094,TC-0188,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0019,US-0095,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0095,TK-0142,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0095,TK-0143,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0095,TC-0189,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0095,TC-0190,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0095,BG-0048,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+EP-0005,FT-0020,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+FT-0020,US-0096,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0096,TK-0144,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0096,TC-0191,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0096,TC-0192,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0020,US-0097,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0097,TK-0145,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0097,TK-0146,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0097,TC-0193,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0097,TC-0194,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0097,BG-0049,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0020,US-0098,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0098,TK-0147,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0098,TC-0195,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0098,TC-0196,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0020,US-0099,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0099,TK-0148,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0099,TK-0149,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0099,TC-0197,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0099,TC-0198,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0099,BG-0050,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0020,US-0100,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0100,TK-0150,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0100,TC-0199,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0100,TC-0200,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+EP-0006,FT-0021,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+FT-0021,US-0101,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0101,TK-0151,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0101,TK-0152,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0101,TC-0201,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0101,TC-0202,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0101,BG-0051,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0021,US-0102,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0102,TK-0153,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0102,TC-0203,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0102,TC-0204,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0021,US-0103,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0103,TK-0154,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0103,TK-0155,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0103,TC-0205,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0103,TC-0206,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0103,BG-0052,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0021,US-0104,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0104,TK-0156,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0104,TC-0207,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0104,TC-0208,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0021,US-0105,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0105,TK-0157,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0105,TK-0158,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0105,TC-0209,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0105,TC-0210,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0105,BG-0053,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+EP-0006,FT-0022,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+FT-0022,US-0106,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0106,TK-0159,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0106,TC-0211,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0106,TC-0212,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0022,US-0107,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0107,TK-0160,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0107,TK-0161,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0107,TC-0213,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0107,TC-0214,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0107,BG-0054,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0022,US-0108,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0108,TK-0162,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0108,TC-0215,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0108,TC-0216,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0022,US-0109,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0109,TK-0163,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0109,TK-0164,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0109,TC-0217,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0109,TC-0218,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0109,BG-0055,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0022,US-0110,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0110,TK-0165,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0110,TC-0219,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0110,TC-0220,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+EP-0006,FT-0023,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+FT-0023,US-0111,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0111,TK-0166,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0111,TK-0167,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0111,TC-0221,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0111,TC-0222,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0111,BG-0056,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0023,US-0112,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0112,TK-0168,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0112,TC-0223,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0112,TC-0224,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0023,US-0113,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0113,TK-0169,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0113,TK-0170,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0113,TC-0225,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0113,TC-0226,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0113,BG-0057,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0023,US-0114,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0114,TK-0171,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0114,TC-0227,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0114,TC-0228,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0023,US-0115,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0115,TK-0172,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0115,TK-0173,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0115,TC-0229,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0115,TC-0230,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0115,BG-0058,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+EP-0006,FT-0024,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+FT-0024,US-0116,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0116,TK-0174,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0116,TC-0231,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0116,TC-0232,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0024,US-0117,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0117,TK-0175,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0117,TK-0176,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0117,TC-0233,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0117,TC-0234,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0117,BG-0059,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0024,US-0118,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0118,TK-0177,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0118,TC-0235,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0118,TC-0236,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+FT-0024,US-0119,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0119,TK-0178,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0119,TK-0179,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0119,TC-0237,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0119,TC-0238,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0119,BG-0060,System.LinkTypes.Related,Defect association,No (API or UI),Story <-> Bug
+FT-0024,US-0120,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0120,TK-0180,System.LinkTypes.Hierarchy-Forward,Hierarchy,No (see notes),Parent -> Child
+US-0120,TC-0239,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
+US-0120,TC-0240,Microsoft.VSTS.Common.TestedBy-Forward,Test coverage,No (API or UI),Story -> Test Case
