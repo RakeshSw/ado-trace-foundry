@@ -146,3 +146,79 @@ class Workspace:
         self.last_report = report
         yield {'stage': 'Validate consistency', 'detail': {'remaining_changes': 0}}
         return report
+
+
+def edit_synthetic_item(workspace: Workspace, item_id: int, *, title: str,
+                        description: str, acceptance_criteria: str = '') -> int:
+    """Modify an existing simulated ADO item; source changes remain unsynced."""
+    if type(item_id) is not int or item_id not in workspace.source:
+        raise ValueError('Unknown work item')
+    values = [title.strip(), description.strip(), acceptance_criteria.strip()]
+    if not values[0] or not values[1] or any(len(x) > 8000 for x in values):
+        raise ValueError('Non-empty title and description required; each field <= 8000 characters')
+    node = deepcopy(workspace.source[item_id])
+    node['title'] = values[0]
+    node['revision'] = int(node.get('revision', 0)) + 1
+    node.setdefault('fields', {}).update({'System.Title': values[0], 'System.Description': values[1]})
+    node.setdefault('descriptions', {})['System.Description'] = values[1]
+    if values[2]:
+        node['fields']['Microsoft.VSTS.Common.AcceptanceCriteria'] = values[2]
+        node['descriptions']['Microsoft.VSTS.Common.AcceptanceCriteria'] = values[2]
+    workspace.source[item_id] = node
+    return item_id
+
+
+def change_synthetic_link(workspace: Workspace, source: int, target: int,
+                          kind: str, *, add: bool) -> bool:
+    """Change only the in-memory simulated graph, never real Azure DevOps."""
+    if kind not in {'parent-child', 'tested-by', 'related'}:
+        raise ValueError('Unsupported relation type')
+    if type(source) is not int or type(target) is not int or source == target:
+        raise ValueError('Invalid source/target IDs')
+    if source not in workspace.source or target not in workspace.source:
+        raise ValueError('Both items must exist in the simulated source')
+    src, dst = workspace.source[source], workspace.source[target]
+    if kind == 'tested-by' and (src['type'] not in {'User Story','Requirement','Product Backlog Item'} or dst['type'] != 'Test Case'):
+        raise ValueError('Tested-by requires requirement → Test Case')
+    if kind == 'parent-child' and src['type'] not in {'Epic','Feature','User Story','Product Backlog Item','Requirement'}:
+        raise ValueError('Invalid hierarchy parent')
+    if kind == 'related':
+        source, target = sorted((source, target))
+    key = (kind, source, target)
+    exists = any((e['kind'], int(e['source']), int(e['target'])) == key for e in workspace.source_edges)
+    if add and not exists:
+        workspace.source_edges.append({'kind': kind, 'source': source, 'target': target})
+        return True
+    if not add and exists:
+        workspace.source_edges = [e for e in workspace.source_edges
+                                  if (e['kind'], int(e['source']), int(e['target'])) != key]
+        return True
+    return False
+
+
+def create_synthetic_test_case(workspace: Workspace, *, title: str, action: str,
+                               expected: str, requirement_id: int | None = None) -> int:
+    """Add a simple one-step test to the simulated source; requires explicit sync."""
+    import xml.etree.ElementTree as ET
+    values = [title.strip(), action.strip(), expected.strip()]
+    if any(not x or len(x) > 8000 for x in values):
+        raise ValueError('Title, action and expected result must be non-empty and <= 8000 characters')
+    if requirement_id is not None and (requirement_id not in workspace.source or
+                                      workspace.source[requirement_id]['type'] not in {'User Story', 'Requirement', 'Product Backlog Item'}):
+        raise ValueError('Select an existing requirement')
+    item_id = max(workspace.source, default=0) + 1
+    root = ET.Element('steps', {'id': '0', 'last': '1'})
+    step = ET.SubElement(root, 'step', {'id': '1', 'type': 'ValidateStep'})
+    for part in (values[1], values[2]):
+        el = ET.SubElement(step, 'parameterizedString', {'isformatted': 'true'})
+        el.text = part
+    ET.SubElement(step, 'description')
+    node = {'id': item_id, 'type': 'Test Case', 'title': values[0], 'revision': 1,
+            'state': 'Design', 'url': '', 'changed_at': None,
+            'fields': {'System.WorkItemType': 'Test Case', 'System.Title': values[0],
+                       'Microsoft.VSTS.TCM.Steps': ET.tostring(root, encoding='unicode')},
+            'descriptions': {}}
+    workspace.source[item_id] = node
+    if requirement_id is not None:
+        change_synthetic_link(workspace, requirement_id, item_id, 'tested-by', add=True)
+    return item_id

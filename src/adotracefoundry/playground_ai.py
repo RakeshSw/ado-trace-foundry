@@ -186,10 +186,13 @@ def generate_story(feature: dict, *, visitor_id: str, limiter=None, transport=No
             'You are generating a synthetic Agile User Story for a SampleCommerce training project. '
             'Never use real names, secrets, personal data or proprietary systems. '
             'Create a fresh, realistic story relevant to the feature context, not a fixed example. '
-            'Return ONLY JSON keys: title, description, acceptance_criteria. '
+            'Return ONLY JSON keys: title, description, acceptance_criteria, demo_question. '
             'description must use As a / I want / So that and explain behavior; '
             'acceptance_criteria must contain at least 3 independently testable criteria with concrete outcomes. '
-            'Do not claim anything is already implemented.')
+            'Generate demo_question as ONE specific, grounded question relevant to the NEW story, which a user can ask '
+            'BEFORE and AFTER syncing. The question should ask what the new story requires and how existing tests cover it; '
+            'include the exact placeholder {work_item_id} to target the future assigned ID. '
+            'Do not put acceptance-criterion answers into the question or claim implementation.')
         data = call_foundry(context, instruction, transport=transport)
         # The model sometimes returns acceptance criteria as JSON arrays.
         # Normalize supported shapes, but do not fabricate missing requirements.
@@ -204,6 +207,15 @@ def generate_story(feature: dict, *, visitor_id: str, limiter=None, transport=No
             if not value or len(value) > 8000:
                 raise ValueError(f'Invalid AI-generated {field}: empty or too long')
             result[field] = value
+        generated_question = data.get('demo_question')
+        if isinstance(generated_question, str) and generated_question.strip() and len(generated_question.strip()) <= 600:
+            result['demo_question'] = generated_question.strip()
+            result['question_source'] = 'model-generated'
+        else:
+            # Backward-compatible, context-derived fallback if the model omits its optional field.
+            result['demo_question'] = (
+                f"What does {{work_item_id}} — {result['title']} — require, and what linked tests verify it?")[:600]
+            result['question_source'] = 'title-derived fallback'
         return result
     finally:
         limiter.release(lock_key)
