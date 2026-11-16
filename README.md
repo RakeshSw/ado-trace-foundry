@@ -29,6 +29,16 @@ Engineering knowledge is often scattered across **requirements, backlog items, t
 > **The key demonstration:** Create a synthetic requirement, ask about it *before* synchronization, refresh the knowledge snapshot, and ask the *same question* again. The difference is visible—and verifiable.
 
 ## See how it works
+The screenshots below show the exact same work item moving through the demo flow: create → sync → ask again.
+Before Sync
+<img width="1276" height="835" alt="Screenshot 2026-11-16 112412" src="https://github.com/user-attachments/assets/c41447cf-9968-488a-8e15-04672e050723" />
+Incremental Sync
+<img width="1274" height="820" alt="Screenshot 2026-11-16 112349" src="https://github.com/user-attachments/assets/35af07e7-f018-4d00-bed1-13e3026629b0" />
+After Sync
+<img width="1297" height="816" alt="Screenshot 2026-11-16 112436" src="https://github.com/user-attachments/assets/27c38484-fb73-4212-ac3b-cf3cb4401a66" />
+
+
+
 
 ```mermaid
 flowchart TB
