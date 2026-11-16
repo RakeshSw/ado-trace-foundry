@@ -234,6 +234,7 @@ with changes_tab:
                 st.write('✅ ' + stage['stage'])
                 st.caption(json.dumps(stage['detail'], ensure_ascii=False))
             status.update(label='Synchronization finished', state='complete')
+        st.rerun()
     if ws.last_report and st.session_state.demo_compare:
         before_record = st.session_state.demo_compare['before']
         if before_record['item_id'] in ws.synced:
