@@ -230,16 +230,79 @@ Do not publish private exports, attachments, PATs, internal URLs or proprietary 
 
 The deployed playground is configured for **20 model requests per visitor-session per UTC hour**, **200 model requests per UTC day globally**, and **2 concurrent model requests globally**. A standard agent question often consumes two model calls; a story generation or *after-sync* explanation typically consumes one. Limits are **model requests**, not counts of stories or button clicks. Session-generated visitor IDs can be reset by starting a new session, so the global counter is the stronger shared safeguard. These numbers reflect the intended deployment configuration and can be changed server-side.
 
-## Screenshots and demo media
 
-**Screenshots are being collected from the actual hosted app** so the README does not display fabricated UI. Suggested captures:
+## Screenshots and Demo Walkthrough
 
-1. **Engineering Agent** — question, answer, tool executed and inspectable evidence.
-2. **Story generation** — editable User Story and generated demo question.
-3. **Before / After** — the same question, side-by-side evidence and refreshed record counts.
-4. **Sync report** — measured changed-record and relationship counts.
+The following screenshots were captured from the **live ADOTraceFoundry playground**. They demonstrate how incremental knowledge synchronization enables an AI Engineering Agent to retrieve newly available requirements and provide evidence-grounded answers.
 
-For the strongest portfolio presentation, add actual captures under `docs/images/` and replace this section with GitHub-hosted image references. Capture only synthetic work items; hide browser profiles, account details, credentials and deployment settings.
+### 🔴 1. Before Sync — Outdated Knowledge
+
+A new User Story (**WI-631**) is created in the simulated Azure DevOps source, but it is not yet available in synchronized knowledge.
+
+The agent correctly identifies that the requirement is unavailable rather than generating an unsupported answer.
+
+**Initial state:**
+- Source work items: **631**
+- Synchronized knowledge: **630**
+- Synchronized relationships: **624**
+- WI-631 available to the agent: **No**
+
+<!-- Insert your Before Sync screenshot here -->
+
+### 🔄 2. Incremental Sync — Knowledge Refresh
+
+The synchronization pipeline detects changes and updates the affected engineering knowledge.
+
+**Pipeline operations:**
+1. Detect new and modified work items.
+2. Extract and normalize changed records.
+3. Reconcile work-item relationships.
+4. Regenerate affected knowledge documents.
+5. Refresh deterministic retrieval.
+6. Validate synchronization consistency.
+
+**Observed results:**
+- Synchronized knowledge: **630 → 631**
+- Relationships: **624 → 625**
+- Pending changes: **1 → 0**
+
+<!-- Insert your Incremental Sync screenshot here -->
+
+### 🟢 3. After Sync — Evidence-Grounded AI Response
+
+The **exact same question** is asked after synchronization.
+
+The Engineering Agent now retrieves WI-631 from synchronized knowledge, explains its documented requirements and examines the actual traceability relationships.
+
+**Results:**
+- WI-631 successfully retrieved.
+- Requirements and acceptance criteria available.
+- Parent Feature relationship identified.
+- **0 linked test cases**, highlighting a structural coverage gap.
+- Answer grounded in synchronized work-item evidence.
+
+<!-- Insert your After Sync screenshot here -->
+
+---
+
+### 💡 Why This Matters
+
+**Engineering data changes. Your AI agent's knowledge should change with it.**
+
+ADOTraceFoundry demonstrates how incremental synchronization transforms newly created engineering requirements into traceable, agent-ready knowledge.
+
+For public safety, work-item updates are simulated instead of modifying a shared Azure DevOps project. This prevents accidental data corruption, invalid relationships and uncontrolled changes.
+
+The demonstration executes actual change detection, graph reconciliation, knowledge-document updates and evidence-grounded retrieval.
+
+**Technical scope:** The public playground uses deterministic, source-grounded retrieval. It does not continuously poll Azure DevOps or regenerate vector embeddings.
+
+### 🚀 Try It Yourself
+
+**[Launch the Live ADOTraceFoundry Playground](https://ado-trace-foundry-dntcsjawkcnpqcfximv8aw.streamlit.app/)**
+
+Create a User Story → Ask Before Sync → Synchronize → Ask After Sync → Compare Evidence.
+
 
 ## Current boundaries and future extensions
 
